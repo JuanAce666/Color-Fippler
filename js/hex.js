@@ -33,7 +33,7 @@ const hex = [
           document.body.style.backgroundColor = searchInput;
           resultadosDiv.innerHTML = `<p>Color code: ${searchInput}</p>`;
       } else {
-          alert("Please enter a valid hexadecimal color code (e.g., #00FF00).");
+          alert("Please enter a valid hexadecimal color code (Example, #00FF00).");
       }
   }
   
